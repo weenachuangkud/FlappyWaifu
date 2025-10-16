@@ -28,3 +28,6 @@ This project is licensed under the **Creative Commons Attribution–NonCommercia
 > as long as you give **proper credit** and share any modified versions under the same license.
 
 ---
+## NOTE
+> This Project is **unfinished** and **work in progress**
+> i still have not finished the Assets for the game yet
