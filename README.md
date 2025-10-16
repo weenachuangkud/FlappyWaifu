@@ -1,7 +1,5 @@
 # FlappyWaifu
-A flappyBird Clone but Bird are programming languages waifu 
-
-
+A flappy bird clones, Made in different programming languages, But bird are programming languages waifu
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -17,7 +15,7 @@ just Tap!
 - python + PygameCE
 
 ---
-## Verison
+## Version
 - Python (3.14.0) :
 pygame-ce
 
