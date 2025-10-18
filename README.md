@@ -6,15 +6,14 @@ A flappy bird clones, Made in different programming languages, But bird are prog
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
----
 ## How to play?
 just Tap!
 
----
+
 ## How was these game made with
 - python + PygameCE
 
----
+
 ## Version
 - Python (3.14.0) :
 pygame-ce
@@ -30,4 +29,5 @@ This project is licensed under the **Creative Commons Attribution–NonCommercia
 ---
 ## NOTE
 > This Project is **unfinished** and **work in progress**
+
 > i still have not finished the Assets for the game yet
