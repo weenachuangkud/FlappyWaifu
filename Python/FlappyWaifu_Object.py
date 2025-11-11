@@ -1,6 +1,8 @@
-class Physic:
-    gravity : float = 0.5
+from FlappyWaifu_Config import PhysicConfig
 
+class Physic:
+    gravity: float = PhysicConfig.GRAVITY
+    
 class Vector2:
     x = 0
     y = 0
@@ -22,7 +24,7 @@ class PhysicObject(Physic):
         super().__init__()
         self.velocity = Vector2()
 
-    def ApplyForce(self, x : float, y : float):
+    def ApplyForce(self, x: float, y: float):
         self.velocity.x += x
         self.velocity.y += y
 

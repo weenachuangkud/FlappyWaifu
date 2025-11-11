@@ -1,3 +1,9 @@
-- [x] Add call to DebuggerStatus.UpdateStatus() in Game.update()
-- [x] Add rendering of FPS text in Game.draw() at bottom left if visible
-- [x] Test the game to verify FPS display works
+# Code Improvement Plan
+
+## Tasks
+- [ ] Replace enum config with dataclass for cleaner access
+- [ ] Add error handling for asset loading
+- [ ] Rename Player enum to PlayerConfig to avoid naming conflict
+- [ ] Optimize text rendering to only update when score changes
+- [ ] Remove unprofessional comments
+- [ ] Add delta time to the game loop for consistent physics

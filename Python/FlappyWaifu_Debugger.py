@@ -7,6 +7,7 @@ from typing import Callable
 import time
 from functools import wraps
 
+from FlappyWaifu_Config import DebuggerConfig as Debugger
 
 def Logger(message: str = "LOG MESSAGE", show_args=False, show_timing=False, show_return_Value=False):
     def decorator(func: Callable):
@@ -34,12 +35,15 @@ class DebuggerStatus:
     def __init__(self):
         self.Visible = False
         self.Clock = Clock()
-        self.font = SysFont("Consolas", 16)
-        self.font_color = (255, 255, 255)
-        
+        self.font = SysFont("Consolas", Debugger.FPS_TEXT_SIZE)
+        self.font_color = Debugger.FPS_TEXT_COLOR
+
         self.fps = int(self.Clock.get_fps())
         self.fps_text = self.font.render("FPS: XX", True, self.font_color)
-    
-    def UpdateStatus(self):
+
+    def Update(self):
         self.fps = int(self.Clock.get_fps())
-        self.fps_text = self.font.render(f"FPS: {self.fps}", True, self.font_color)
+        if Debugger.VISIBLE:
+            self.fps_text = self.font.render(f"FPS: {self.fps}", True, self.font_color)
+        else:
+            self.fps_text = None

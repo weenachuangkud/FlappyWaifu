@@ -1,3 +1,4 @@
 # MAMA
 .venv
 ./Python/__pycache__
+.TODO.md
