@@ -19,8 +19,7 @@ just Tap!
 pygame-ce
 
 > [!NOTE]
-> This Project is **unfinished** and **work in progress**
-> 
+> This Project is **unfinished** and **work in progress**<br>
 > I still have not finished the Assets for the game yet
 
 ---
@@ -30,6 +29,7 @@ This project is licensed under the **Creative Commons Attribution–NonCommercia
 
 > You may copy, share, and modify this project for **educational and non-commercial use** —  
 > as long as you give **proper credit** and share any modified versions under the same license.
+
 
 
 
