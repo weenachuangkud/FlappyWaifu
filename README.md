@@ -1,6 +1,9 @@
 # FlappyWaifu
 A flappy bird clones, Made in different programming languages, But bird are programming languages waifu
 
+> [!NOTE]
+> Don't mind me :P I'm still practicing on drawing pixel art, so this project will take time
+
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -29,6 +32,7 @@ This project is licensed under the **Creative Commons Attribution–NonCommercia
 
 > You may copy, share, and modify this project for **educational and non-commercial use** —  
 > as long as you give **proper credit** and share any modified versions under the same license.
+
 
 
 
